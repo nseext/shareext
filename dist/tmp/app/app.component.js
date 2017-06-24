@@ -22,7 +22,7 @@ AppComponent = __decorate([
     core_1.Component({
         moduleId: module.id,
         selector: 'sd-app',
-        template: "<sd-toolbar></sd-toolbar> <sd-navbar></sd-navbar> <router-outlet></router-outlet>",
+        template: "<!--<sd-toolbar></sd-toolbar> <sd-navbar></sd-navbar>--> <router-outlet></router-outlet>",
         styles: [":host{-webkit-flex:1 1 100%;-ms-flex:1 1 100%;flex:1 1 100%;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-flow:column;-ms-flex-flow:column;flex-flow:column}"],
     }),
     __metadata("design:paramtypes", [])

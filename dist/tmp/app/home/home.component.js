@@ -36,8 +36,8 @@ HomeComponent = __decorate([
     core_1.Component({
         moduleId: module.id,
         selector: 'sd-home',
-        template: "<p>Howdy! Here's a list of awesome computer scientists. Do you know any others? Add to the list yourself.</p>  <form (submit)=\"addName()\">   <input [(ngModel)]=\"newName\" name=\"newName\" placeholder=\"Awesome Computer Scientist\">   <button type=\"submit\">Add</button> </form>  <ul>   <li *ngFor=\"let name of names\">{{name}}</li> </ul>",
-        styles: [":host{display:block;padding:0 16px}input{width:250px}ul{list-style-type:none;padding:0 0 0 8px}"],
+        template: "<section class=\"mbr-box mbr-section mbr-section--relative mbr-section--fixed-size mbr-section--full-height mbr-section--bg-adapted\" id=\"header2-0\" style=\"background-color: rgb(76, 105, 114);\">     <div class=\"mbr-box__magnet mbr-box__magnet--sm-padding mbr-box__magnet--center-left\">                  <div class=\"mbr-box__container mbr-section__container container\">             <div class=\"mbr-box mbr-box--stretched\"><div class=\"mbr-box__magnet mbr-box__magnet--center-left\">                 <div class=\"row\"><div class=\" col-sm-6 col-sm-offset-6\">                     <div class=\"mbr-hero animated fadeInUp\">                         <h1 class=\"mbr-hero__text\">SHAREEXT</h1>                         <p class=\"mbr-hero__subtext\">It helps you to select share with high volatile with calculator.</p>                     </div>                     <div class=\"mbr-buttons btn-inverse mbr-buttons--left\"><a class=\"mbr-buttons__btn btn btn-lg btn-warning animated fadeInUp delay\" href=\"/\">LEARN MORE</a></div>                 </div></div>             </div></div>         </div>              </div> </section>",
+        styles: [""],
     }),
     __metadata("design:paramtypes", [name_list_service_1.NameListService])
 ], HomeComponent);
